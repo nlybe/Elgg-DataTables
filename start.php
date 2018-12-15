@@ -19,7 +19,7 @@ function datatables_api_init() {
     elgg_extend_view('elgg.css', 'datatables_api/datatables_api.css');
     elgg_extend_view('css/admin', 'datatables_api/datatables_api_admin.css');
     
-    // register settings js
+    // register plugin settings view
     elgg_register_simplecache_view('datatables_api/settings.js');    
         
     elgg_define_js('datatables.net', array(
@@ -70,3 +70,5 @@ function datatables_api_init() {
     ));
 
 }
+
+?>
